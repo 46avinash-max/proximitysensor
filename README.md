@@ -207,18 +207,6 @@ Object is NEAR
 Distance: 0.0 cm
 ## When the Object is Far
 <img width="1080" height="2400" alt="WhatsApp Image 2026-08-25 at 08 41 17" src="https://github.com/user-attachments/assets/b3b0bedc-a85a-4778-81cd-36de7d9c136e" />
-Object is FAR
-Distance: 5.0 cm
-## WORKING
-~~~
-The application uses the SensorManager class to access the proximity sensor available on the Android mobile device.
-
-The Sensor.TYPE_PROXIMITY is used to obtain the proximity sensor. The application implements SensorEventListener to continuously receive changes from the sensor.
-
-When the sensor detects that an object is close to the device, the application displays "Object is NEAR" and changes the background color to red.
-
-When the object is moved away from the device, the application displays "Object is FAR" and changes the background color to green.
-~~~
 
 
 
